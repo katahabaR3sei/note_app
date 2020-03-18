@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>肩幅's Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+ 
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <header>
+  <div class="logo">
+    <img class ="logo-image"src="/肩幅R三世-logo-black.png">
+      <div class="logo-list">
+        <ul>
+          <%= link_to("Home","/", {class: "list"}) %>
+          <%= link_to("Profile","/home/profile", {class: "list"}) %>
+          <%= link_to("Access","/home/access", {class: "list"}) %>
+          <%= link_to("Post", "/posts/index", {class: "list"}) %>
+        </ul>
+      </div>
+  </div>
+  </header>
+  <body>
+    <%= yield %>
+  </body>
+
+  <footer>
+    <div class="footer-container">
+      <p> ©️ 2020  katahaba R  三世</p>
+    </div>
+  </footer>
+</html>

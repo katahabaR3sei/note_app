@@ -1,0 +1,19 @@
+current directory: /Users/hayashiyutarou/Desktop/MyPortfolio/note/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.1/ext/byebug
+/Users/hayashiyutarou/.rbenv/versions/2.7.0/bin/ruby -I /Users/hayashiyutarou/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200312-60257-9erqqc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hayashiyutarou/Desktop/MyPortfolio/note/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/hayashiyutarou/Desktop/MyPortfolio/note/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/hayashiyutarou/Desktop/MyPortfolio/note/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20200312-60257-h2rq43/byebug

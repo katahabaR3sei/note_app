@@ -1,0 +1,10 @@
+<div class="new-container">
+  <h1>ご意見箱</h1>
+  <div class="form">
+    <p>こちらのフォームからご意見があれば投稿してください。</p>
+    <%= form_tag("/posts/create") do %>
+      <textarea name="content"></textarea>
+      <input type="submit" value= "肩幅へ届け!!">
+    <% end %>  
+   </div> 
+</div>
